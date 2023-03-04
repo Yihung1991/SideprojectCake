@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cake</title>
+        <!-- css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+            <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.css">
+        <style>
+            .logo{
+                width: 200px;
+            }
+
+            .myCard {
+                width: 100%;
+                min-height: 200px;
+                padding-bottom: 20px;
+                margin-top: 20px;
+                overflow: hidden;
+                position: relative;
+            }
+            .banner {
+                width: 100%;
+                aspect-ratio: 16/7;
+                background: url("./cake/bg.jpg");
+                background-size: cover;
+            }
+            .img-wrap {
+                width: 60%;
+                aspect-ratio: 1/1;
+                overflow: hidden;
+                margin: 0px auto 20px;
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .img-wrap img {
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .body{
+                width: 100%;
+                padding-bottom: 20px;
+                margin-top: 20px;
+                overflow: hidden;
+                position: relative;
+            }
+
+            .card-body{
+                width: 100%;
+            }
+            .card-body h3 {
+                width: 100%;
+                margin-bottom: 10px;
+                margin: 0 auto 20px;
+                padding-bottom: 20px;
+            }
+            .card-body p {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .body-img-wrap{
+                width: 90%;
+                overflow: hidden;
+                margin: 0px auto;
+            }
+
+            .body-img-wrap img{
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+            .project{
+                background-color: rgb(172, 170, 170);
+            }
+
+            .c-myCard {
+                width: 100%;
+                min-height: 200px;
+                padding-bottom: 5px;
+                margin-top: 20px;
+                overflow: hidden;
+                position: relative;
+            }
+
+            .c-img-wrap{
+                width: 100%;
+                aspect-ratio: 5/3;
+                overflow: hidden;
+                margin: 0px auto 10px;
+            }
+            .c-img-wrap img{
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+            .c-card-body{
+                width: 100%;
+                text-align: center;
+                background-color: white;
+                margin:0 auto;
+                border-top: 2px solid transparent;
+                border-bottom:20px solid transparent ;
+            }
+            .c-card-body h3 {
+                width: 100%;
+                margin-bottom: 10px;
+                margin: 0 auto 20px;
+                padding-bottom: 20px;
+            }
+            .c-card-body p {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .c-card-body img{
+                width: 10%;
+                margin: 20px auto;
+            }
+            .btn-style{
+                width: 15%;
+                aspect-ratio: 8/1;
+                background-color: rgba(6, 6, 128, 0.484);
+                color:white;
+                margin:10px auto 10px;
+            }
+
+            .a-style{
+                width: 30%;
+                margin: 0 auto;
+                border: 1px solid black;
+                padding:10px 10px;
+                font-weight: bold;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- html -->
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-auto mx-auto py-1">
+                        <img  class="logo" src="./cake/logo.png" alt="">
+                    </div>
+                    <hr class="d-none d-lg-block">
+                    <div class="col-auto d-sm-none py-1">
+                        <i class="fa-solid fa-bars py-2"></i>
+                    </div>
+                    <nav class="col-auto m-auto fw-bold d-none d-lg-block">
+                        <ul class="d-flex gap-5 list-unstyled">
+                            <li><a>HOME</a></li>
+                            <li><a>快閃消息</a></li>
+                            <li><a>深法甜點</a></li>
+                            <li><a>優惠活動</a></li>
+                            <li><a>門市內用</a></li>
+                            <li><a>如何購買</a></li>
+                            <li><a>甜點Q&A</a></li>
+                            <li><a>人才招募</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="background">
+                <div class="container-fluid">
+                    <div class="row">
+                      <div class="col p-0">
+                        <div class="myCard">
+                          <div class="banner"></div>
+                          <div class="img-wrap">
+                            <img src="./cake/img.png" alt="" />
+                          </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-md-flex body">
+                                <div class="card-body">
+                                    <h3>深夜裡也能有令人陶醉的甜點!</h3>
+                                    <p class="">創業自2011年，擁有網路80萬人氣的深夜裡的法國手工甜點，有著主廚RICK一手打造、多變豐富的塔類甜點世界。每天堅持新鮮現做，不使用任何香精及色素，以頂級食材堆疊出真實美味！</p>
+                                </div>
+                                <div class="body-img-wrap py-4">
+                                    <img src="./cake/food-081_orig.jpg" alt="">
+                                </div> 
+                            </div>
+                            <div class="body-img-wrap"> 
+                                <img src="./cake/vul3orig.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="project">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col">
+                          <div class="c-myCard">
+                            <div class="c-img-wrap">
+                              <img src="./cake/food-083.jpg" alt="" />
+                            </div>
+                            <div class="c-card-body d-flex flex-column">
+                              <P class="m-0">甜點全品項</P>
+                              <h3 class="m-0 p-0">本月甜點菜單</h3>
+                              <img src="./cake/birdseye-icon_1_orig.png" alt="">
+                              <a class="text-decoration-none text-black text-nowrap a-style" href="#"><span>READ MORE</span></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                            <div class="c-myCard">
+                              <div class="c-img-wrap">
+                                <img src="./cake/food-084.jpg" alt="" />
+                              </div>
+                              <div class="c-card-body d-flex flex-column">
+                                <P class="m-0">壽星/加購/VIP</P>
+                                <h3 class="m-0 p-0">優惠活動</h3>
+                                <img src="./cake/birdseye-icon_1_orig.png" alt="">
+                                <a  class="text-decoration-none text-black text-nowrap a-style" href="#"><span>READ MORE</span></a>
+                              </div>
+                            </div>
+                        </div> 
+                        <div class="container">
+                            <div class="row w-50 m-auto">
+                                <button class="col btn-style fw-bold">\隱 藏 限 定 消 息/</button>
+                            </div>
+                        </div>
+                        
+                         
+                    </div>     
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section>
+                <div class="container">
+                    <div class="row py-4 flex-column flex-md-row justify-content-between">
+                        <div class="col-auto justify-content-around m-auto m-md-0 py-2">
+                            <nav class="d-flex gap-3 fs-6">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-solid fa-envelope"></i>
+                            </nav>
+                        </div>
+                        
+                        <div class="col-auto">
+                            <ul class="d-flex flex-column flex-md-row gap-2 gap-md-5 m-0 h-100 align-items-center list-unstyled">
+                                <li><a class="text-decoration-none text-black" href="#">快閃消息</a></li>
+                                <li><a class="text-decoration-none text-black" href="#">深法甜點</a></li>
+                                <li><a class="text-decoration-none text-black" href="#">優惠活動</a></li>
+                                <li><a class="text-decoration-none text-black" href="#">購買方式</a></li>
+                                <li><a class="text-decoration-none text-black" href="#">優惠計算</a></li>
+                            </ul>
+                        </div>
+                        <div class="py-4 fw-bold fs-6">
+                            <p>台北市大安區金山南路二段141巷1號</p>
+                            <p>(​02)-23673067</p>
+                            <p class="py-4"><a class="text-decoration-none text-black" href="#">私訊客服</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+
+
+
+        
+        <!-- js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
